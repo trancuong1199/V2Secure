@@ -1,0 +1,63 @@
+.banner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner img {
+    height: 220px;
+    width: 220px;
+    padding: 50px;
+    margin-right: 30px;
+}
+
+.banner-left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.banner-left h3 {
+    font-size: 40px;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.banner-left h4 {
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.banner-left span {
+    font-size: 23px;
+}
+
+/* company-action */
+
+.company-action {
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+}
+
+.company-action-children {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 35px;
+}
+
+.company-action-children img {
+    width: auto;
+    object-fit: contain;
+    height: 100px;
+}
+
+.company-action-children p {
+    font-size: 16px;
+    color: #fff;   
+    line-height: 1.3rem;
+    width: 200px;
+    text-align: center;
+}
